@@ -1,0 +1,19 @@
+{
+  "name": "scrollit",
+  "version": "1.0.5",
+  "description": "## About ScrollIt.js(scroll•it•dot•js) makes it easy to make long, vertically scrolling pages. This is why it rocks:",
+  "main": "scrollIt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazarofl/scrollIt.js.git"
+  },
+  "author": "Lazaro Fernandes Lima Suleiman <lazaro.fl@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lazarofl/scrollIt.js/issues"
+  },
+  "homepage": "https://github.com/lazarofl/scrollIt.js#readme"
+}

@@ -10,7 +10,7 @@
     'use strict';
 
     var pluginName = 'ScrollIt',
-        pluginVersion = '1.0.4';
+        pluginVersion = '1.0.5';
 
     /*
      * OPTIONS
@@ -47,7 +47,7 @@
         var navigate = function(ndx) {
             if(ndx < 0 || ndx > lastIndex) return;
 
-            var targetTop = $('[data-scroll-index=' + ndx + ']').offset().top + settings.topOffset + margin;
+            var targetTop = $('[data-scroll-index=' + ndx + ']').offset().top + settings.topOffset + settings.margin;
             $('html,body').animate({
                 scrollTop: targetTop,
                 easing: settings.easing
